@@ -1,0 +1,27 @@
+{
+    "name": "ESP8266UPnP",
+    "keywords": "upnp, esp8266, ssdp, smartthings",
+    "description": "Arduino Library to adhere to the UPnP standard (for ESP8266)",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/jcrygier/ESP8266UPnP.git"
+    },
+    "dependencies": [
+        {
+            "name": "ArduinoLog",
+            "version": "~1.0.1"
+        },
+        {
+            "name": "QList",
+            "version": "~0.6.2"
+        },
+        {
+            "name": "ESP8266TrueRandom",
+            "version": "~1.0"
+        }
+    ],
+    "version": "0.0.1",
+    "frameworks": "arduino",
+    "platforms": "espressif8266"
+  }
